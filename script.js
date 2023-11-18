@@ -17,7 +17,7 @@ function createCard(color) {
 }
 
 function createBoard() {
-  shuffle(colors);
+  //shuffle(colors);
   colors.forEach(createCard);
 }
 
