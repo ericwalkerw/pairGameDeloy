@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.315);
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 100px);
+    gap: 10px;
+  }
+
+  .cell {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    border: 1px solid #ef2424;
+    cursor: pointer;
+  }
+
+  .hidden {
+    background-color: #fff;
+    color: black;
+  }
+
+  .score {
+    font-size: 48px;
+    margin-bottom: 12px;
+  }
